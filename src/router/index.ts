@@ -13,7 +13,7 @@ const routes: Array<RouteRecordRaw> = [
     path: '/',
     name: 'Portal',
     component: Portal,
-    redirect: '/radio',
+    redirect: '/about',
     children: [
       {
         path: '/about',
