@@ -1,0 +1,36 @@
+// 全局color
+$default-color: #606266;
+$primary-color: #409eff;
+$success-color: #67c23a;
+$danger-color: #f56c6c;
+$warning-color: #e6a23c;
+$info-color: #909399;
+
+$default-disabled-color: #c0c4cc;
+$primary-disabled-color: #a0cfff;
+$success-disabled-color: #b3e19d;
+$danger-disabled-color: #fab6b6;
+$warning-disabled-color: #f3d19e;
+$info-disabled-color: #c8c9cc;
+
+// 类型集合
+$types: default, primary, success, danger, warning, info;
+// 基础状态colors
+$base-colors: $default-color, $primary-color, $success-color, $danger-color, $warning-color, $info-color;
+// 禁用状态时colors
+$disabled-colors: $default-disabled-color, $primary-disabled-color, $success-disabled-color, $danger-disabled-color, $warning-disabled-color, $info-disabled-color;
+
+// 按钮颜色
+$button-types: primary, success, danger, warning, info;
+$button-colors: $primary-color, $success-color, $danger-color, $warning-color, $info-color;
+$button-hover-colors: #66b1ff, #85ce61, #f78989, #ebb563, #a6a9ad;
+$button-active-colors: #3a8ee6, #5daf34, #dd6161, #cf9236, #82848a;
+
+$button-disabled-colors: $primary-disabled-color, $success-disabled-color, $danger-disabled-color, $warning-disabled-color, $info-disabled-color;
+
+$button-plain-bgc: #ecf5ff, #f0f9eb, #fef0f0, #fdf6ec, #f4f4f5;
+$button-plain-border-colors: #b3d8ff, #c2e7b0, #fbc4c4, #f5dab1, #d3d4d6;
+$button-plain-disabled-colors: #8cc5ff, #a4da89, #f9a7a7, #f0c78a, #bcbec2;
+$button-plain-disabled-border-colors: #d9ecff, #e1f3d8, #fde2e2, #faecd8, #e9e9eb;
+
+

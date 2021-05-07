@@ -1,0 +1,39 @@
+/* This is global style file */
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body, #app, .portal {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-size: 14px;
+    color: #444;
+}
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #444;
+}
+a:hover, .active {
+    color: #409eff;
+}
+h2, h3 {
+    font-weight: 400;
+    color: #1f2f3d;
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 22px;
+}
+button, input {
+    outline: none;
+    font-size: 14px;
+}
+.lvan-button, .lvan-radio {
+  user-select: none;
+}
