@@ -2,13 +2,13 @@
 
 > 作者：lvan
 >
-> CSDN账号：[找不到bug的猿](https://blog.csdn.net/l508742729)
+> CSDN 账号：[找不到bug的猿](https://blog.csdn.net/l508742729)
 >
-> githup项目地址：[LvanUI](https://github.com/lvan521/LvanUI)
+> githup 项目地址：[LvanUI](https://github.com/lvan521/LvanUI)
 >
-> 码云项目地址：[Lvan-UI](https://gitee.com/xf727/lvan-ui)
+> 码云 项目地址：[码云Lvan-UI](https://gitee.com/xf727/lvan-ui)
 >
-> 重点说明：本项目仅作为模仿练习 [ElementPlus](https://element-plus.gitee.io/#/zh-CN/component/installation) 的vue组件封装参考，不用于任何商业性质活动。
+> 特别提醒：本项目仅作为模仿练习 [ElementPlus](https://element-plus.gitee.io/#/zh-CN/component/installation) 的vue组件封装参考，不用于任何商业性质活动。
 
 
 
