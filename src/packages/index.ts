@@ -7,6 +7,7 @@ import LvanRow from './layout/row.vue'
 import LvanRadio from './radio/index.vue'
 import LvanRadioGroup from './radio-group/index.vue'
 import LvanCard from './card/index.vue'
+import LvanIcon from './icon/index.vue'
 
 const components = [
   OptionsTable,
@@ -16,7 +17,8 @@ const components = [
   LvanRow,
   LvanRadio,
   LvanRadioGroup,
-  LvanCard
+  LvanCard,
+  LvanIcon
 ]
 
 const install = (Vue: any): void => {

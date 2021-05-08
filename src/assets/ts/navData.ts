@@ -1,18 +1,72 @@
 export const SUPPORT_DATA = [
   {
-    id: 1,
-    name: 'lvan',
-    link: 'https://blog.csdn.net/l508742729'
+    id: '1',
+    title: '特别感谢',
+    bold: false,
+    children: [
+      {
+        id: '1-1',
+        name: 'lvan',
+        link: 'https://blog.csdn.net/l508742729'
+      },
+      {
+        id: '1-2',
+        name: '小花',
+        link: 'https://www.yuque.com/lytz'
+      },
+      {
+        id: '1-3',
+        name: 'Element Plus',
+        link: 'https://element-plus.gitee.io/#/zh-CN'
+      }
+    ]
   },
   {
-    id: 2,
-    name: '小花',
-    link: 'https://www.yuque.com/lytz'
-  },
-  {
-    id: 3,
-    name: '百度',
-    link: 'https://www.baidu.com/'
+    id: '2',
+    title: '常用网站',
+    bold: true,
+    children: [
+      {
+        id: '2-1',
+        name: '百度',
+        link: 'https://www.baidu.com/'
+      },
+      {
+        id: '2-2',
+        name: 'npm',
+        link: 'https://www.npmjs.com/'
+      },
+      {
+        id: '2-3',
+        name: '掘金',
+        link: 'https://juejin.cn/frontend'
+      },
+      {
+        id: '2-4',
+        name: 'vue 3.0',
+        link: 'https://v3.cn.vuejs.org/'
+      },
+      {
+        id: '2-5',
+        name: 'react',
+        link: 'https://react.docschina.org/'
+      },
+      {
+        id: '2-6',
+        name: '微信公众平台',
+        link: 'https://mp.weixin.qq.com/'
+      },
+      {
+        id: '2-7',
+        name: '微信开放文档',
+        link: 'https://developers.weixin.qq.com/miniprogram/dev/api/'
+      },
+      {
+        id: '2-8',
+        name: 'iconfont-阿里巴巴矢量图标库',
+        link: 'https://www.iconfont.cn/'
+      }
+    ]
   }
 ]
 

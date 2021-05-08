@@ -1,11 +1,16 @@
 <template>
   <nav class="container">
-    <div class="support">
-      <div class="support-title">特别感谢</div>
+    <div class="support" v-for="support in supportList" :key="support.id">
+      <div :class="[
+        'support-title',
+        {'is-bold': support.bold}
+      ]">
+        {{support.title}}
+      </div>
       <div class="support-box">
         <ul>
-          <li v-for="support in supportList" :key="support.id">
-            <a :href="support.link" target="_blank">{{support.name}}</a>
+          <li v-for="item in support.children" :key="item.id">
+            <a :href="item.link" target="_blank">{{item.name}}</a>
           </li>
         </ul>
       </div>
@@ -66,6 +71,10 @@ nav {
   .support-title {
     font-size: 14px;
     color: #777;
+    &.is-bold {
+      color: #444;
+      font-weight: 600;
+    }
   }
 }
 .side-nav {

@@ -36,12 +36,13 @@ export default class Portal extends Vue {}
   left: 0;
   height: 80px;
   box-sizing: border-box;
+  border-bottom: 1px solid #dcdfe6;
 }
 .main-cnt {
   position: relative;
   height: 100%;
   min-height: auto;
-  padding: 120px 0 0 50px;
+  padding: 80px 0 0 50px;
   box-sizing: border-box;
 }
 .main-nav {
@@ -50,11 +51,11 @@ export default class Portal extends Vue {}
   top: 80px;
   bottom: 0;
   padding-bottom: 50px;
+  border-right: 1px solid #eaeefb;
 }
 .main-content {
   height: 100%;
-  padding-bottom: 100px;
-  padding-left: 280px;
+  padding: 40px 0 100px 280px;
   overflow-y: auto;
   box-sizing: border-box;
 }

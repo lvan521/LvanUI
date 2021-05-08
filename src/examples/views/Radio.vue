@@ -2,7 +2,7 @@
   <div class="container">
     <div class="title">
       <h2>Radio 单选框</h2>
-      <p class="intro">在一组备选项中进行单选</p>
+      <p class="intro">在一组备选项中进行单选。</p>
     </div>
     <div class="content-warp">
       <section>

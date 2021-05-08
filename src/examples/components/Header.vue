@@ -19,7 +19,6 @@ export default class Header extends Vue {
 <style scoped lang="scss">
 header {
   padding: 0 50px;
-  border-bottom: 1px solid #dcdfe6;
 }
 .logo {
   height: 80px;

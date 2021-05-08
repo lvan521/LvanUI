@@ -1,5 +1,5 @@
 <template>
-  <i :class="`lvan-icon-${name}`"></i>
+  <i :class=" name ? `lvan-icon-${name}` : '' "></i>
 </template>
 
 <script lang="ts">

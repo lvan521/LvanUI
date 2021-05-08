@@ -1,12 +1,12 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
-import Portal from '../views/Portal.vue'
-import About from '../views/About.vue'
-import Link from '../views/examples/Link.vue'
-import Button from '../views/examples/Button.vue'
-import Icon from '../views/examples/Icon.vue'
-import Layout from '../views/examples/Layout.vue'
-import Radio from '../views/examples/Radio.vue'
-import Card from '../views/examples/Card.vue'
+import Portal from '../examples/Portal.vue'
+import About from '../examples/views/About.vue'
+import Link from '../examples/views/Link.vue'
+import Button from '../examples/views/Button.vue'
+import Icon from '../examples/views/Icon.vue'
+import Layout from '../examples/views/Layout.vue'
+import Radio from '../examples/views/Radio.vue'
+import Card from '../examples/views/Card.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
