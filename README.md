@@ -32,16 +32,17 @@ npm run build
 
 ##### 目录说明
 ```
-lvan-ui
-|——src
-  |——assets // 静态资源文件 （字体图标、img、css、js...）
-  |——examples // 组件示例相关页面
-  |——packages // 组件库
-  |——router // 路由配置
-  |——store // vuex配置
-  |——until // 工具类
-  |——App.vue // 主页面
-  |——main.ts // 项目入口
+-lvan-ui
+  |——public
+  |——src
+    |——assets // 静态资源文件 （字体图标、img、css、js...）
+    |——examples // 组件示例相关页面
+    |——packages // 组件库
+    |——router // 路由配置
+    |——store // vuex配置
+    |——until // 工具类
+    |——App.vue // 主页面
+    |——main.ts // 项目入口
 ```
 
 ##### Lints and fixes files
