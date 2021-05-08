@@ -18,7 +18,7 @@
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component'
-import { isValidComponentType } from '@/utils/validators'
+import { isValidComponentType } from '../../assets/utils/validators'
 
 @Options({
   name: 'LvanLink',

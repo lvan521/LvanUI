@@ -9,7 +9,7 @@
 </template>
 
 <script lang="ts">
-import { UPDATE_MODEL_EVENT } from '@/utils/constants'
+import { UPDATE_MODEL_EVENT } from '../../assets/utils/constants'
 import { Options, Vue } from 'vue-class-component'
 
 @Options({

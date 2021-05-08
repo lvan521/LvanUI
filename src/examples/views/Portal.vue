@@ -16,8 +16,8 @@
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component'
-import Header from './components/Header.vue' // @ is an alias to /src
-import SliderNav from './components/SliderNav.vue'
+import Header from '../components/Header.vue'
+import SliderNav from '../components/SliderNav.vue'
 
 @Options({
   components: {

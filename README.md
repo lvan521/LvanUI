@@ -14,41 +14,17 @@
 
 
 
-##### 项目配置-下载相关依赖
+##### 安装 LvanUI
 
 ```
-npm install
+npm install lvan-ui --save
 ```
 
-##### 项目运行：
-```
-npm run serve
-```
+##### 全局引入
 
-##### 打包：
 ```
-npm run build
+import LvanUI form 'lvan-ui'
+import 'lvan-ui/dist/lvan-ui.css'
+ 
+Vue.use(LvanUI)
 ```
-
-##### 目录说明
-```
--lvan-ui
-  |——public
-  |——src
-    |——assets // 静态资源文件 （字体图标、img、css、js...）
-    |——examples // 组件示例相关页面
-    |——packages // 组件库
-    |——router // 路由配置
-    |——store // vuex配置
-    |——until // 工具类
-    |——App.vue // 主页面
-    |——main.ts // 项目入口
-```
-
-##### Lints and fixes files
-```
-npm run lint
-```
-
-##### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

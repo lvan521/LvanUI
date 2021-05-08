@@ -48,21 +48,26 @@ export const SUPPORT_DATA = [
       },
       {
         id: '2-5',
+        name: 'Vue CLI',
+        link: 'https://cli.vuejs.org/zh/'
+      },
+      {
+        id: '2-6',
         name: 'react',
         link: 'https://react.docschina.org/'
       },
       {
-        id: '2-6',
+        id: '2-7',
         name: '微信公众平台',
         link: 'https://mp.weixin.qq.com/'
       },
       {
-        id: '2-7',
+        id: '2-8',
         name: '微信开放文档',
         link: 'https://developers.weixin.qq.com/miniprogram/dev/api/'
       },
       {
-        id: '2-8',
+        id: '2-9',
         name: 'iconfont-阿里巴巴矢量图标库',
         link: 'https://www.iconfont.cn/'
       }

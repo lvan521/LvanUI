@@ -54,7 +54,7 @@
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component'
-import { ICONDATA } from '@/assets/ts/iconData'
+import { ICONDATA } from '../assets/ts/iconData'
 
 @Options({
   props: {},

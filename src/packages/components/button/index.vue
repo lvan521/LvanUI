@@ -21,7 +21,7 @@
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component'
-import { isValidComponentType, isValidComponentSize } from '@/utils/validators'
+import { isValidComponentType, isValidComponentSize } from '../../assets/utils/validators'
 
 @Options({
   name: 'lvanButton',

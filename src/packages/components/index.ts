@@ -1,5 +1,4 @@
 // 全局组件
-import OptionsTable from './options-table/index.vue'
 import LvanLink from './link/index.vue'
 import LvanButton from './button/index.vue'
 import LvanCol from './layout/col.vue'
@@ -10,7 +9,6 @@ import LvanCard from './card/index.vue'
 import LvanIcon from './icon/index.vue'
 
 const components = [
-  OptionsTable,
   LvanLink,
   LvanButton,
   LvanCol,

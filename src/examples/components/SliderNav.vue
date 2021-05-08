@@ -32,7 +32,7 @@
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component'
-import { SUPPORT_DATA, NAV_DATA } from '@/assets/ts/navData'
+import { SUPPORT_DATA, NAV_DATA } from '../assets/ts/navData'
 
 @Options({
   props: {},
