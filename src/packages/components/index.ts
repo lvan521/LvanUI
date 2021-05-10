@@ -7,6 +7,8 @@ import LvanRadio from './radio/index.vue'
 import LvanRadioGroup from './radio-group/index.vue'
 import LvanCard from './card/index.vue'
 import LvanIcon from './icon/index.vue'
+import '../assets/font/iconfont.css'
+import '../assets/scss/global.scss'
 
 const components = [
   LvanLink,
@@ -18,10 +20,22 @@ const components = [
   LvanCard,
   LvanIcon
 ]
+// 定义install组件的时候，注册的组件名字为compnents.name，编译过程中，组件名字会被压缩成别名，
+// 解决办法，改成字符串，写死即可
+const componentsName = [
+  'LvanLink',
+  'LvanButton',
+  'LvanCol',
+  'LvanRow',
+  'LvanRadio',
+  'LvanRadioGroup',
+  'LvanCard',
+  'LvanIcon'
+]
 
-const install = (Vue: any): void => {
-  components.map(component => {
-    Vue.component(component.name, component)
+const install = (vue: any): void => {
+  components.map((component, index) => {
+    vue.component(componentsName[index], component)
   })
 }
 

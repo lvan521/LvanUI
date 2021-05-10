@@ -14,17 +14,71 @@
 
 
 
-##### 安装 LvanUI
+#### LvanUI组件使用：
+##### 1.安装 LvanUI
 
-```
+```javascript
 npm install lvan-ui --save
 ```
 
-##### 全局引入
+##### 2. 全局引入
 
-```
+```javascript
+// 引入组件
 import LvanUI form 'lvan-ui'
+// 引入样式
 import 'lvan-ui/dist/lvan-ui.css'
  
-Vue.use(LvanUI)
+const app = createApp(App)
+// 注册组件
+app.use(LvanUI)
+
 ```
+
+#### 该仓库代码使用配置：
+##### 1.项目配置-下载相关依赖
+
+```
+npm install
+```
+
+##### 2.项目运行：
+```
+npm run serve
+```
+
+##### 目录说明
+```javascript
+-lvan-ui
+  |——public
+  |——src
+    |——examples // 组件示例相关页面
+      |——assets // 静态资源文件 （字体图标、img、css、js...）
+      |——router // 路由配置
+      |——store // vuex配置
+      |——until // 工具类
+      |——App.vue // 主页面
+      |——main.ts // 项目入口
+    |——packages // 组件库
+```
+
+##### 打包：
+```
+npm run build
+```
+
+##### 组件库打包：
+```
+npm run lib
+```
+
+##### Lints and fixes files
+```
+npm run lint
+```
+
+##### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+

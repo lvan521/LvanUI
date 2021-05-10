@@ -1,11 +1,12 @@
 # 忽略目录
 public/
 src/
+node_modules
 
 # 忽略指定文件
+package-lock.json
 .browserslistrc
 .editorconfig
 .gitignore
-*.json
 *.js
 *.md

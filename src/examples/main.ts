@@ -8,7 +8,6 @@ import CodeWarp from './components/CodeWarp.vue'
 import OptionsTable from './components/OptionsTable.vue'
 import './assets/scss/main.scss'
 import 'prismjs/themes/prism.css'
-import '../packages/assets/font/iconfont.css'
 
 const app = createApp(App)
 
