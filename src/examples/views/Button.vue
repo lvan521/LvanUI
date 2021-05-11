@@ -321,7 +321,7 @@ import { Options, Vue } from 'vue-class-component'
     }
   }
 })
-export default class Link extends Vue {}
+export default class Button extends Vue {}
 </script>
 
 <style lang="scss" scoped>

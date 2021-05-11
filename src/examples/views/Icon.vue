@@ -64,7 +64,7 @@ import { ICONDATA } from '../assets/ts/iconData'
     }
   }
 })
-export default class Link extends Vue {
+export default class Icon extends Vue {
 }
 </script>
 

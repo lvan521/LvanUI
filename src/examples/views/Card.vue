@@ -152,7 +152,7 @@ import { Options, Vue } from 'vue-class-component'
     }
   }
 })
-export default class About extends Vue {}
+export default class Card extends Vue {}
 </script>
 
 <style lang="scss" scoped>
