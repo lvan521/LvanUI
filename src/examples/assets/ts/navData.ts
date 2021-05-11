@@ -82,8 +82,8 @@ export const NAV_DATA = [
     children: [
       {
         id: '1-1',
-        name: '关于',
-        link: '/about'
+        name: '快速上手',
+        link: '/quickstart'
       }
       // {
       //   id: '1-2',

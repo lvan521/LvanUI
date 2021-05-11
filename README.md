@@ -10,7 +10,7 @@
 >
 > 特别提醒：本项目仅作为模仿练习 [ElementPlus](https://element-plus.gitee.io/#/zh-CN/component/installation) 的vue组件封装参考，不用于任何商业性质活动。
 >
->最终解释权归学者本人所有。
+>最终解释权归作者本人所有。
 
 
 

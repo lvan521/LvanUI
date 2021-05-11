@@ -1,24 +1,24 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
-import Portal from '../views/Portal.vue'
-import About from '../views/About.vue'
-import Link from '../views/Link.vue'
-import Button from '../views/Button.vue'
-import Icon from '../views/Icon.vue'
-import Layout from '../views/Layout.vue'
-import Radio from '../views/Radio.vue'
-import Card from '../views/Card.vue'
+import Portal from '../views/portal.vue'
+import QuickStart from '../views/quickstart.vue'
+import Link from '../views/link.vue'
+import Button from '../views/button.vue'
+import Icon from '../views/icon.vue'
+import Layout from '../views/layout.vue'
+import Radio from '../views/radio.vue'
+import Card from '../views/card.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
     name: 'Portal',
     component: Portal,
-    redirect: '/about',
+    redirect: '/quickstart',
     children: [
       {
-        path: '/about',
-        name: 'About',
-        component: About
+        path: '/quickstart',
+        name: 'QuickStart',
+        component: QuickStart
       },
       {
         path: '/layout',
