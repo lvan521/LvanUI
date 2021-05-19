@@ -35,7 +35,8 @@ app.mount('#app')
         <h3>特别说明</h3>
         <lvan-card style="margin-top: 15px;">
           <p class="intro">作者：lvan</p>
-          <p class="intro">CSDN 账号：<lvan-link type="primary" href="https://blog.csdn.net/l508742729" target="_blank">找不到bug的猿</lvan-link></p>
+          <p class="intro">CSDN 账号：<lvan-link type="primary" href="https://blog.csdn.net/l508742729" target="_blank">找不到bug的lvan</lvan-link></p>
+          <p class="intro">组件库 npm 地址：<lvan-link type="primary" href="https://www.npmjs.com/package/lvan-ui" target="_blank">https://www.npmjs.com/package/lvan-ui</lvan-link></p>
           <p class="intro">githup 项目地址：<lvan-link type="primary" href="https://github.com/lvan521/LvanUI" target="_blank">https://github.com/lvan521/LvanUI</lvan-link></p>
           <p class="intro">码云 项目地址：<lvan-link type="primary" href="https://gitee.com/xf727/lvan-ui" target="_blank">https://gitee.com/xf727/lvan-ui</lvan-link></p>
           <p class="intro">
@@ -43,7 +44,7 @@ app.mount('#app')
             <lvan-link type="primary" href="https://github.com/element-plus/element-plus" target="_blank"> ElementPlus </lvan-link>
             的vue组件封装参考，不用于任何商业性质活动。
           </p>
-          <p class="intro">最终解释权归学者本人所有。</p>
+          <p class="intro">最终解释权归作者本人所有。</p>
         </lvan-card>
       </section>
     </div>

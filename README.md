@@ -2,7 +2,9 @@
 
 > 作者：lvan
 >
-> CSDN 账号：[找不到bug的猿](https://blog.csdn.net/l508742729)
+> CSDN 账号：[找不到bug的lvan](https://blog.csdn.net/l508742729)
+>
+> 组件库 npm 地址：[https://www.npmjs.com/package/lvan-ui](https://www.npmjs.com/package/lvan-ui)
 >
 > githup 项目地址：[https://github.com/lvan521/LvanUI](https://github.com/lvan521/LvanUI)
 >
